@@ -1,0 +1,2 @@
+serviceClass: tn.spindox.client.EmployeeService
+path: 20ECBB52E6BEFDD4AB91177544A9432E.gwt.rpc

@@ -1,0 +1,25 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		 <g:MenuBar>
+		   <g:MenuItem> <b>Employee Management</b>
+		   </g:MenuItem>
+		   <g:MenuItem>Technology Area Management
+		   </g:MenuItem>
+		   <g:MenuItem>Specific Technology Management
+		   </g:MenuItem>
+		   <g:MenuItem>Competence Management
+		     <g:MenuBar vertical="true">
+		       <g:MenuItem>Display Competences</g:MenuItem>
+		       <g:MenuItem>Research Competences</g:MenuItem>
+		     </g:MenuBar>
+		   </g:MenuItem>		   
+		 </g:MenuBar>
+	</g:HTMLPanel>
+</ui:UiBinder> 
